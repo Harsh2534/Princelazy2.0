@@ -382,8 +382,9 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
+    url = f'https://{URL_SHORTENR_WEBSITE}/api'
     url = f'https://mdiskshortner.link/api'
-    params = {'api': 0a9529a727ff581ecc453f7d6bba634f779f35cc,
+    params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
 
